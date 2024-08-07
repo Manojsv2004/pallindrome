@@ -1,10 +1,9 @@
 import java.util.*;
 class Pallindrome{
   public static void main(String[] args) {
-  String original,reverse="MANOJ";
+    String reverse="";
   Scanner in = new Scanner(System.in);
-  System.out.println(" Yes ");
-  original= in.nextLine();
+  String original= in.nextLine();
   int length = original.length();
   for(int i = length-1;i>=0;i--)
 	  reverse= reverse+original.charAt(i);
